@@ -127,3 +127,25 @@ form input[type="submit"]:hover {
 	color: #333;
 }
 
+/* media queris */
+  
+  /* laptop */
+  @media (max-width:1366px){
+	html{
+		font-size: 80%;
+	}
+}
+/* tablet */
+@media (max-width:768px){
+	html{
+		font-size: 70%;
+	}
+}
+
+
+/* mobile phone */
+@media (max-width:450px){
+	html{
+		font-size: 60%;
+	}
+}
